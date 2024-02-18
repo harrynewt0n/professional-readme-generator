@@ -31,6 +31,7 @@ ${data.usage}
 
 ## License
 ${generateBadge(data.license)}
+This project is covered under ${data.license} license.
 
 ## Contributing
 ${data.contributing}
@@ -41,6 +42,7 @@ ${data.tests}
 ## Questions
 ### GitHub
 ${data.github}
+https://github.com/${data.github}
 ### Email
 ${data.email}
 `;
