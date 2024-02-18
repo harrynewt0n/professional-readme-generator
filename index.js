@@ -16,11 +16,38 @@ const questions = [
         name: 'description',
       },
       {
+        type: 'input',
+        message: 'Please list installation steps...',
+        name: 'installation',
+      }
+      {
+        type: 'input',
+        message: 'Please highlight how to use the application...',
+        name: 'usage',
+      }
+      {
         type: 'list',
         message: 'Please select a license for your project...',
         name: 'license',
         choices: ['MIT', 'Apache 2.0', 'GPL 3.0'],
       },
+      {
+        type: 'input',
+        message: 'How can other developers contribute?',
+        name: 'contributing',
+      }
+      {
+        type: 'input',
+        message: 'How can this application be tested?',
+        name: 'tests',
+      }
+      {
+        type: 'input',
+        message: 'Please enter GitHub username...',
+        name: 'contributing',
+      }
+];
+];
 ];
 
 // function to write README file
