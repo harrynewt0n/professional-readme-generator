@@ -19,6 +19,9 @@ ${data.description}
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 ${data.installation}
@@ -26,10 +29,20 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
-
-
 ## License
 ${generateBadge(data.license)}
+
+## Contributing
+${data.contributing}
+
+## Tests
+${data.tests}
+
+## Questions
+### GitHub
+${data.github}
+### Email
+${data.email}
 `;
 }
 
