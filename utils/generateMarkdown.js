@@ -9,6 +9,8 @@ function generateBadge(license) {
 
 function generateMarkdown(data) {
   return `# ${data.title}
+  
+  ${generateBadge(data.license)}
 
 ## Description
 ${data.description}
@@ -30,7 +32,6 @@ ${data.installation}
 ${data.usage}
 
 ## License
-${generateBadge(data.license)}
 This project is covered under ${data.license} license.
 
 ## Contributing
@@ -44,6 +45,7 @@ ${data.tests}
 ${data.github}
 https://github.com/${data.github}
 ### Email
+For further questions, don't hesitate to send an email to: 
 ${data.email}
 `;
 }
